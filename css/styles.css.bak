@@ -1,0 +1,100 @@
+/* Master Styles */
+body {
+    background: rgb(180, 170, 155);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.nav-wrapper > .leftside > .nav-link-wrapper > a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-wrapper > .leftside > .nav-link-wrapper > a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.container {
+    width: 100%;
+    min-width: 2em;
+}
+
+/* Nav bar styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border-bottom: #fff solid 1px;
+    width: 98%;
+}
+
+.leftside {
+    display: flex;
+}
+
+.nav-wrapper > .leftside > div {
+    margin-right: 5%;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1% solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+

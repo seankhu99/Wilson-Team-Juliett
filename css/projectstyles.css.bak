@@ -33,7 +33,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
 
 /* Overlay for images */
@@ -57,6 +57,15 @@
     justify-content: center;
 }
 
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
 
 .portfolio-item:hover .img-overlay{
     opacity: 1;
@@ -72,3 +81,6 @@ a {
     transition: color 1s;
 }
 
+p {
+	text-align:center;
+}

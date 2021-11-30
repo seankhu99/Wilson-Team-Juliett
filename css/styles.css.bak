@@ -1,6 +1,6 @@
 /* Master Styles */
 body {
-    background: rgb(180, 170, 155);
+    background: rgb(190, 170, 155);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -17,7 +17,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     height: auto;
     max-width: 150px;
     border-radius: 50%;

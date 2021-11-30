@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    padding-top: 1cm;
+    padding-top: 0.75cm;
     display: grid;
     justify-content: center;
     /*grid-template-columns: .75fr 1.5fr .75fr;
